@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Khan's Kitchen Menu</title>
+	<link rel="stylesheet" type="menu/menu.css" href="#">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="container">
+	<h1>Select Your Items</h1>
+	<div class="cart">
+		<div class="products">
+
+			<div class="product1">
+				<img src="menu/pictures/blacktea.webp" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Rong Cha</h3>
+					<h4 class="product-price">BDT 5</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+
+			<div class="product2">
+				<img src="menu/pictures/cha.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Cha</h3>
+					<h4 class="product-price">BDT 10</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+
+            <div class="product3">
+				<img src="menu/pictures/coffee.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Coffee</h3>
+					<h4 class="product-price">BDT 20</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product4">
+				<img src="menu/pictures/samosa.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Samosa</h3>
+					<h4 class="product-price">BDT 5</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product5">
+				<img src="menu/pictures/singara.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Shingara</h3>
+					<h4 class="product-price">BDT 5</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product6">
+				<img src="menu/pictures/daal.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Daal & Paratha</h3>
+					<h4 class="product-price">BDT 30</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product7">
+				<img src="menu/pictures/brownies.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Brownie</h3>
+					<h4 class="product-price">BDT 25</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product8">
+				<img src="menu/pictures/pizza.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Pizza</h3>
+					<h4 class="product-price">BDT 50</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product9">
+				<img src="menu/pictures/biriyani.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Chicken Biriyani</h3>
+					<h4 class="product-price">BDT 120</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+            <div class="product10">
+				<img src="menu/pictures/chicken tehari.jpg" width="100" height="100" alt="">
+				<div class="product-info">
+					<h3 class="product-name">Tehari</h3>
+					<h4 class="product-price">BDT 130</h4>
+					<p class="product-quantity">Qnt: <input value="1" name="">
+					<p class="product-remove">
+						<i class="fa fa-trash" aria-hidden="true"></i>
+						<span class="remove">Remove</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		</div>
+        <div class="cart-total">
+            <p>
+				<span>Number of Items</span>
+				<span>2</span>
+			</p>
+			<p>
+				<span>Total Price</span>
+				<span>BDT 20</span>
+			</p>
+			<a href="#">Proceed to Checkout</a>
+		</div>
+	</div>
+</div>
+</div>
+</body>
+</html>

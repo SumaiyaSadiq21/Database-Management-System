@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100vh;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.container{
+    text-underline-position: under;
+}
+
+.container .logo{
+    display: flex;
+    padding: -2% 2%;
+}
+
+.container .btn{
+    position: relative;
+    margin-left: 90em;
+    top: -10em;
+    width: 80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #f68729;
+    cursor: pointer;
+    color: white;
+    transition: .8s;
+}
+
+.container .nav{
+    width: 84.3em;
+    height: auto;
+    background: #f68729;
+}
+
+.container .nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.container .nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 6em;
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.container .nav ul li a:hover{
+    background-color: #A9A9A9;
+    color: black;
+}
+
+.container h3{
+    text-align: left;
+    top: 20%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #f68729;
+}
+
+.container form .id {
+    padding-left: -2em;
+    position: absolute;
+    left: 10em;
+    padding: 4px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: -10px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container form .name #name{
+    padding-left: -2em;
+    position: absolute;
+    top: 60em;
+}
+

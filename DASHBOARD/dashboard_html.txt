@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Home</title>
+    <link rel="stylesheet" href="dashboard/dashboard.css">
+</head>
+<body>
+    
+    <div class="navbar">
+  
+    <div class="logo">
+     <img src="dashboard/pictures/cms_logo.png" width="500" height="180" alt="">
+    </div>
+    <div class="greet">
+        <h1>WELCOME!</h1>
+        <h4>JOHN DOE 011182123</h4>
+    </div>
+    <div class="right-menu">
+          <button class="menu-button">Account</button>
+          <div class="dropdown-menu">
+              <a href="#">Change Password</a>
+              <a href="#">Logout</a>
+          </div>
+    </div>
+    <div class="balance">
+        <label for="">Your Balance:</label>
+        <input type="text">
+    </div>
+    <div class="bill">
+        <button class="btn">Check Bill</button>
+    </div> 
+    <div class="nav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">CART</a></li>
+            <li><a href="#">NOTIFICATIONS</a></li>
+            <li><a href="#">ORDER HISTORY</a></li>
+        </ul>
+    </div>
+    <section class="items">
+        <div class="food">
+            <img src="dashboard/pictures/khans.jpg" alt="">
+            <h4>Khans Kitchen</h4>
+            <button>Order</button>
+        </div>
+        <div class="food">
+            <img src="dashboard/pictures/bikrampur.jpg" alt="">
+            <h4>Bikrampur Kitchen</h4>
+            <button>Order</button>
+        </div>
+        <div class="food">
+            <img src="dashboard/pictures/olympia.jpg" alt="">
+            <h4>Olympia Cafe</h4>
+            <button>Order</button>
+        </div>
+        <div class="food">
+            <img src="dashboard/pictures/indulge.png" alt="">
+            <h4>Indulge Cafe</h4>
+            <button>Order</button>
+        </div>
+    </section>
+</div>
+</body>
+</html>

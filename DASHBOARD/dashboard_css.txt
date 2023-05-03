@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.navbar{
+    text-underline-position: under;
+}
+
+.navbar .logo{
+    display: flex;
+       padding: -2% 2%;
+}
+
+.navbar .greet{
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    font-family: 'Poppins';
+}
+
+.navbar .right-menu .menu-button{
+   background-color:#A9A9A9;
+   color: black;
+   position: relative;
+   width: 150%;
+   min-height: -2%;
+   left: 200px;
+   top: -6.2em;
+   padding: 9px 0;
+   font-size: 20px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+
+.navbar .right-menu{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.navbar .right-menu .dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: white;
+    min-width: 7em;
+    margin-top: -7.6em;
+    margin-left: 13em;
+    z-index: 1;
+}
+
+.navbar .dropdown-menu a:hover{
+    background-color: gray;
+    color: black;
+} 
+
+.navbar .right-menu:hover .dropdown-menu{
+    display: block;
+}
+
+.navbar .right-menu:hover .menu-button{
+    background-color: #A9A9A9;
+}
+
+.navbar .balance{
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 0%;
+    width: 80px;
+    font-size: 20px;
+    padding: 10px 0;
+    top:  20px;
+}
+
+.navbar .bill .btn{
+    position: relative;
+    margin-left: 955px;
+    top: -6.6em;
+    width:  80px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #f68729;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: .8s;
+}
+
+.navbar .nav{
+    width: 131.8%;
+    height: auto;
+    background: #f68729;
+}
+
+.navbar .nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-left: 6em;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar .nav ul li a:hover{
+    background-color: #A9A9A9;
+    color: black;
+}
+
+.navbar .items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.navbar .items .food img{
+    width: 14.2em;
+    height: 75%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.navbar .items .food img:hover{
+    transform: scale(1.06);
+}
+
+.navbar .items .food h4{
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar .items .food button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #f68729;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+
+.navbar .items .food button:hover{
+    transform: scale(1.09);
+}
+
+@media screen and(max-width: 1000px) {
+    .navbar .items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .navbar .items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+    
